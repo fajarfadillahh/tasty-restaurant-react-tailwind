@@ -4,7 +4,7 @@
     @apply bg-gray-50 pt-32 pb-16;
   }
   .section-subtitle {
-    @apply pb-4 text-[15px] font-semibold text-green-600;
+    @apply pb-2 text-[15px] font-semibold text-green-600;
   }
   .section-title {
     @apply pb-4 text-[24px] font-bold leading-[1.4] text-gray-900;
