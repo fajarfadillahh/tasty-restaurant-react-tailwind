@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header className="header fixed top-0 left-0 z-20 w-full bg-white">
+    <header className="header fixed top-0 left-0 z-20 w-full bg-gray-50">
       <div className="header__container container flex h-24 items-center justify-between">
         <Link
           to="/"
@@ -22,7 +22,7 @@ export default function Header() {
         </Link>
 
         <div
-          className={`header__menu fixed top-24 left-0 w-full origin-top bg-white py-8 px-16 text-center shadow-lg transition-all duration-300 ${
+          className={`header__menu fixed top-24 left-0 w-full origin-top bg-gray-50 py-8 px-16 text-center shadow-lg transition-all duration-300 ${
             menuOpen ? "scale-y-100 opacity-100" : "scale-y-0 opacity-0"
           }`}
         >
