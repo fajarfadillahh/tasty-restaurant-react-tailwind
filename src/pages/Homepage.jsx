@@ -6,6 +6,7 @@ import About from "../parts/Homepage/About";
 import Services from "../parts/Homepage/Services";
 import Menu from "../parts/Homepage/Menu";
 import Available from "../parts/Homepage/Available";
+import Contact from "../components/Contact";
 
 export default function Homepage() {
   return (
@@ -16,6 +17,7 @@ export default function Homepage() {
       <Services />
       <Menu />
       <Available />
+      <Contact />
     </>
   );
 }
