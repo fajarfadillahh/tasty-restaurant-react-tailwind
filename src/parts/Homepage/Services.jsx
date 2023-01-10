@@ -25,7 +25,7 @@ export default function Services() {
               <h3 className="services__content-title pb-4 text-[18px] font-bold text-gray-900">
                 Execellent Food
               </h3>
-              <p className="services__content-text text-[15px] text-gray-600">
+              <p className="services__content-text text-[15px] leading-[1.8] text-gray-600">
                 We offer clients excellent quality services for man years, the
                 best and delicious food in the city.
               </p>
@@ -43,7 +43,7 @@ export default function Services() {
               <h3 className="services__content-title pb-4 text-[18px] font-bold text-gray-900">
                 Fast Food
               </h3>
-              <p className="services__content-text text-[15px] text-gray-600">
+              <p className="services__content-text text-[15px] leading-[1.8] text-gray-600">
                 We offer clients excellent quality services for man years, the
                 best and delicious food in the city.
               </p>
@@ -61,7 +61,7 @@ export default function Services() {
               <h3 className="services__content-title pb-4 text-[18px] font-bold text-gray-900">
                 Delivery Food
               </h3>
-              <p className="services__content-text text-[15px] text-gray-600">
+              <p className="services__content-text text-[15px] leading-[1.8] text-gray-600">
                 We offer clients excellent quality services for man years, the
                 best and delicious food in the city.
               </p>
