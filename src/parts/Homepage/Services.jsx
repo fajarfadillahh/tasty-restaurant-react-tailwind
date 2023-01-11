@@ -7,7 +7,7 @@ import ServicesImg3 from "../../assets/images/services-truck.svg";
 export default function Services() {
   return (
     <section className="services section">
-      <div className="services__container container grid gap-8">
+      <div className="services__container container grid gap-8 lg:max-w-4xl">
         <div className="services__data justify-self-center text-center">
           <p className="services__subtitle section-subtitle">Offering</p>
           <h1 className="services__title section-title">Our amazing service</h1>
