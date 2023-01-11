@@ -8,11 +8,11 @@ import AppImg2 from "../../assets/images/app2.png";
 export default function Available() {
   return (
     <section className="available section">
-      <div className="available__container container grid gap-8">
-        <div className="available__data justify-self-center text-center">
+      <div className="available__container container grid gap-8 sm:grid-cols-2 sm:items-center lg:max-w-4xl">
+        <div className="available__data justify-self-center text-center sm:text-left">
           <p className="available__subtitle section-subtitle">App</p>
           <h1 className="available__title section-title">App is available</h1>
-          <p className="available__text section-text">
+          <p className="available__text section-text md:max-w-sm">
             Find our application and download it, you can make reservations,
             food orders, see your delivaries on the way and much more.
           </p>
@@ -36,7 +36,7 @@ export default function Available() {
 
         <img
           src={AvailableImg}
-          className="available__img w-[250px] justify-self-center"
+          className="available__img w-[250px] justify-self-center sm:-order-1 sm:w-[300px] lg:w-[380px]"
           alt="available image"
         />
       </div>
