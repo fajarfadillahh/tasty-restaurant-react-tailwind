@@ -15,7 +15,7 @@ export default function Menu() {
           <h1 className="menu__title section-title">Menu of the week</h1>
         </div>
 
-        <div className="menu__group grid grid-cols-2 justify-center gap-4">
+        <div className="menu__group grid grid-cols-2 justify-center gap-4 sm:grid-cols-[repeat(2,200px)] md:grid-cols-[repeat(3,230px)] md:gap-8">
           <div className="menu__content relative grid gap-8 overflow-hidden rounded-xl border-2 border-gray-200 p-4 transition-all duration-300 hover:border-white hover:bg-white hover:shadow-xl">
             <img
               src={MenuImg1}
@@ -24,10 +24,10 @@ export default function Menu() {
             />
 
             <div className="menu__content-data">
-              <h3 className="menu__content-title pb-1 text-[14px] font-bold text-gray-900">
+              <h3 className="menu__content-title pb-1 text-[14px] font-bold text-gray-900 sm:text-[18px]">
                 Barbeque Salad
               </h3>
-              <p className="menu__content-tag pb-3 text-[10px] text-gray-600">
+              <p className="menu__content-tag pb-3 text-[10px] text-gray-600 sm:text-[15px]">
                 Delicious Dish
               </p>
               <p className="menu__content-price text-[18px] font-bold text-gray-900">
@@ -50,10 +50,10 @@ export default function Menu() {
             />
 
             <div className="menu__content-data">
-              <h3 className="menu__content-title pb-1 text-[14px] font-bold text-gray-900">
+              <h3 className="menu__content-title pb-1 text-[14px] font-bold text-gray-900 sm:text-[18px]">
                 Salad with Fish
               </h3>
-              <p className="menu__content-tag pb-3 text-[10px] text-gray-600">
+              <p className="menu__content-tag pb-3 text-[10px] text-gray-600 sm:text-[15px]">
                 Delicious Dish
               </p>
               <p className="menu__content-price text-[18px] font-bold text-gray-900">
@@ -76,10 +76,10 @@ export default function Menu() {
             />
 
             <div className="menu__content-data">
-              <h3 className="menu__content-title pb-1 text-[14px] font-bold text-gray-900">
+              <h3 className="menu__content-title pb-1 text-[14px] font-bold text-gray-900 sm:text-[18px]">
                 Spinach Salad
               </h3>
-              <p className="menu__content-tag pb-3 text-[10px] text-gray-600">
+              <p className="menu__content-tag pb-3 text-[10px] text-gray-600 sm:text-[15px]">
                 Delicious Dish
               </p>
               <p className="menu__content-price text-[18px] font-bold text-gray-900">
