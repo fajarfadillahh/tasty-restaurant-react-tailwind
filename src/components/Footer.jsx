@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer bg-gray-50 pt-32 pb-8">
       <div className="footer__container container grid gap-24">
-        <div className="footer__group grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] items-start gap-12">
+        <div className="footer__group grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] items-start gap-12 lg:justify-items-center">
           <div className="footer__content">
             <h3 className="footer__content-logo pb-2 text-[18px] font-bold text-gray-900 hover:text-green-600">
               Tasty Food
