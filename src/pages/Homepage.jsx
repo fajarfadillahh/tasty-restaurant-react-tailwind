@@ -8,6 +8,7 @@ import Menu from "../parts/Homepage/Menu";
 import Available from "../parts/Homepage/Available";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import ScrollButton from "../components/ScrollButton";
 
 export default function Homepage() {
   return (
@@ -20,6 +21,7 @@ export default function Homepage() {
       <Available />
       <Contact />
       <Footer />
+      <ScrollButton />
     </>
   );
 }
